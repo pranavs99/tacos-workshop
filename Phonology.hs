@@ -54,7 +54,6 @@ lookupFrontness (v : v') c =
 lookupFinnishFrontness :: Char -> [FrontnessValue]
 lookupFinnishFrontness = lookupFrontness finnishVowels
 
-
 --------------------------------------------------------------------------------
 -- conjugation and harmony
 --------------------------------------------------------------------------------
@@ -93,20 +92,3 @@ conjugateClean word cse =
         (False, Inessive)   -> (word, "-ssA")
         (True,  Elative)    -> (word, "-sta")
         (False, Elative)    -> (word, "-stA")
-
--- maa-ssa
--- minA asu-n tA-ssA maa-ssa
---
--- seinA-ssA
--- televisio on seinA-ssA
--- metsA-ssA
--- me kAvelemme metsA-ssA
--- suome-ssa
--- tA-ssA
--- tuo-ssa
---
--- suome-sta
--- minA ole-n suome-sta
--- minA muista-n tA-stA pingviini-stA
--- minA muista-n tuo-sta pingviini-stA
--- minA
