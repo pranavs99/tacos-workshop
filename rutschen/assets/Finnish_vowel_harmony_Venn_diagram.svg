@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 259">
+<g stroke="#000">
+	<circle fill="#29f" cx="132" cy="129" r="121.5"/>
+	<circle fill="#fe3" cx="243" cy="129" r="121.5"/>
+	<path fill="#8c4" d="M187 21C148 41 121 82 121 129C121 176 148 217 187 237C226 217 253 176 253 129C253 82 226 41 187 21"/>
+</g>
+<g font-family="sans-serif" font-size="28" text-anchor="middle">
+	<text x="75" y="81">ä</text>
+	<text x="75" y="138">ö</text>
+	<text x="75" y="195">y</text>
+	<text x="187" y="81">e</text>
+	<text x="187" y="195">i</text>
+	<text x="297" y="81">a</text>
+	<text x="297" y="138">o</text>
+	<text x="297" y="195">u</text>
+</g>
+</svg>
